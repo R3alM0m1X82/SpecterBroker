@@ -497,21 +497,9 @@ The tool extracts the following metadata when available:
 
 ## 🔐 Detection & OPSEC
 
-### EDR/AV Considerations
+### EDR/AV Considerations 
 
-**This version includes basic evasion:**
-
-✅ String obfuscation (Base64 encoding)  
-✅ Function name obfuscation  
-✅ Random sleep delays (behavioral evasion)  
-✅ Sanitized output names  
-
-⚠️ **Detection Vectors:**
-
-- **File Access**: Reads authentication cache files
-- **DPAPI Calls**: Uses `CryptUnprotectData` API
-- **Memory**: Tokens temporarily stored in process memory
-- **Disk**: Writes JSON output files to current directory
+It is NOT currently detected by most EDRs because it is a little known technique, it is not a dump of lsass.exe!
 
 ### OPSEC Best Practices
 
@@ -532,6 +520,13 @@ Clear-RecycleBin -Force
 # 5. Timing considerations
 # Run during business hours to blend with normal activity
 ```
+
+⚠️ **Detection Vectors:**
+
+- **File Access**: Reads authentication cache files
+- **DPAPI Calls**: Uses `CryptUnprotectData` API
+- **Memory**: Tokens temporarily stored in process memory
+- **Disk**: Writes JSON output files to current directory
 
 ### Defensive Considerations
 
