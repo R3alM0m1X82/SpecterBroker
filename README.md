@@ -106,10 +106,7 @@ This tool is provided **for educational and authorized security testing purposes
 
 - ✅ **Authorized Use Only**: Use only on systems you own or have explicit written permission to test
 - ❌ **Unauthorized Access**: Using this tool without proper authorization may violate:
-  - Computer Fraud and Abuse Act (CFAA) - United States
-  - Computer Misuse Act - United Kingdom  
-  - EU Cybersecurity Directives
-  - Local cybersrime laws in your jurisdiction
+
 
 ### Ethical Guidelines
 
@@ -243,8 +240,8 @@ The tool automatically:
     Type 2: 42 entries
 ═══════════════════════════════════════════════════════════════
 
-[*] Type 2 Access Data: 12
-[*] Type 2 Refresh Data: 18
+[*] Type 2 Access Data: 12  <--- ACCESS TOKENS!
+[*] Type 2 Refresh Data: 18 <--- REFRESH TOKENS!
 [*] Type 2 NGC Data: 12
 [*] Type 1 Data: 15
 [*] Expired skipped: 8
@@ -265,10 +262,6 @@ Two JSON files are generated:
 ---
 
 ## 📊 Output Format
-
-### Type 1: TBRes Format
-
-Compatible with `Invoke-TBResExtraction.ps1` format:
 
 ```json
 {
@@ -295,10 +288,6 @@ Compatible with `Invoke-TBResExtraction.ps1` format:
   ]
 }
 ```
-
-### Type 2: BrokerDecrypt Format
-
-Compatible with `Invoke-BrokerDecrypt.ps1` format:
 
 ```json
 {
@@ -370,10 +359,10 @@ Compatible with `Invoke-BrokerDecrypt.ps1` format:
 │                     SpecterBroker                           │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ┌──────────────┐    ┌──────────────┐   ┌──────────────┐  │
-│  │   TBRes      │    │     WAM      │   │    DPAPI     │  │
-│  │  Extractor   │◄───┤  Extractor   │◄──┤  Decryptor   │  │
-│  └──────────────┘    └──────────────┘   └──────────────┘  │
+│  ┌──────────────┐    ┌──────────────┐   ┌──────────────┐    │
+│  │   TBRes      │    │     WAM      │   │    DPAPI     │    │
+│  │  Extractor   │◄───┤  Extractor   │◄──┤  Decryptor   │    │
+│  └──────────────┘    └──────────────┘   └──────────────┘    │
 │         │                    │                    │         │
 │         └────────────────────┴────────────────────┘         │
 │                              ▼                              │
@@ -588,17 +577,16 @@ Organizations can detect this activity by:
 
 **r3alm0m1x82**  
 - Website: [safebreach.it](https://safebreach.it)
-- Company: SafeBreach Academy Italy
-- Role: Red Team Trainer & Security Researcher
+- Company: SafeBreach.it
+- CyberSecurity Architect / Purple Team / Trainer & Security Researcher
 
 ### Inspiration & Research
 
 This tool builds upon research and techniques from:
 
-- **AADInternals** by Dr. Nestori Syynimaa ([@DrAzureAD](https://twitter.com/DrAzureAD))
+- **AADBrokerDecrypt** by Jackullrich - winternl.com
+- **WAMBam** by Adam Chester - ([@_xpn_](https://twitter.com/_xpn_)
 - **ROADtools** by Dirk-jan Mollema ([@_dirkjan](https://twitter.com/_dirkjan))
-- **TokenTactics** by Steve Borosh ([@424f424f](https://twitter.com/424f424f))
-- Microsoft Security Research Community
 
 ### Dependencies
 
@@ -613,7 +601,7 @@ This tool builds upon research and techniques from:
 ```
 MIT License
 
-Copyright (c) 2024 r3alm0m1x82
+Copyright (c) 2025 r3alm0m1x82
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -633,23 +621,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
-
-## 🔗 Related Projects
-
-- **AADInternals**: Azure AD / Microsoft 365 security toolkit
-- **ROADtools**: Azure AD exploration framework  
-- **TokenTactics**: Azure token manipulation toolkit
-- **Roadrecon**: Reconnaissance tool for Azure AD
-
----
-
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/r3alm0m1x82/SpecterBroker/issues)
-- **Website**: [safebreach.it](https://safebreach.it)
-- **Training**: SafeBreach Academy - Corporate Cybersecurity Bootcamps
 
 ---
 
