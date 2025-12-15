@@ -1,6 +1,5 @@
 # SpecterBroker
 Advanced Windows authentication token extraction and decryption tool for red team operations and security research.
-**The tool generates Json files that can be imported into the SpecterPortal tool to fully manage EntraID environments and Azure Resources!**
 
 ```
 ═══════════════════════════════════════════════════════════════
@@ -40,6 +39,7 @@ Advanced Windows authentication token extraction and decryption tool for red tea
 ## 🎯 Overview
 
 **SpecterBroker** is a comprehensive post-exploitation tool designed for extracting and decrypting Windows authentication tokens from multiple sources. It targets the Windows Authentication Manager (WAM), Token Broker cache (TBRes), and related authentication subsystems to retrieve Access Tokens, Refresh Tokens, ID Tokens, and NGC (Next Generation Credentials) tokens.
+**The tool generates Json files that can be imported into the SpecterPortal tool to fully manage EntraID environments and Azure Resources!**
 
 This tool is specifically designed for:
 - **Red Team Operations**: Token extraction during authorized penetration testing
