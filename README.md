@@ -72,7 +72,7 @@ This tool is specifically designed for:
 ### Advanced Features
 
 - 🔍 **Automatic Deduplication** - Intelligent token deduplication across cache files
-- 📊 **Dual Output Format** - Compatible with both TBRes and BrokerDecrypt formats
+- 📊 **Json Output compatible with SpecterPortal** - Json files that can be imported into the SpecterPortal tool
 - ⏱️ **Expiration Filtering** - Automatically skips expired access tokens
 - 🎯 **Office Master Detection** - Flags high-value Office 365 master tokens
 - 📁 **Recursive Processing** - Scans entire cache directory structures
