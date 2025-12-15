@@ -1,9 +1,6 @@
 # SpecterBroker
 Advanced Windows authentication token extraction and decryption tool for red team operations and security research
 
-### Author
-
-**r3alm0m1x82**  
 - Website: [safebreach.it](https://safebreach.it)
 - Company: SafeBreach.it
 - CyberSecurity Architect / Purple Team / Trainer & Security Researcher
