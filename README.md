@@ -1,5 +1,5 @@
 # SpecterBroker
-Advanced Windows authentication token extraction and decryption tool for red team operations and security research.
+**Advanced Windows authentication token extraction and decryption tool for red team operations and security research.**
 
 ```
 ═══════════════════════════════════════════════════════════════
@@ -27,7 +27,6 @@ Advanced Windows authentication token extraction and decryption tool for red tea
 ═══════════════════════════════════════════════════════════════
 ```
 
-**Advanced Windows authentication token extraction and decryption tool for red team operations and security research.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)]()
