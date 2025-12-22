@@ -551,11 +551,19 @@ Organizations can detect this activity by:
 
 ---
 
-### Author - r3alm0m1x82
+## 💙 Support This Project
 
-- Website: [safebreach.it](https://safebreach.it)
-- Company: SafeBreach.it
-- CyberSecurity Architect / Purple Team / Trainer & Security Researcher
+This project is developed with passion during nights and weekends alongside a full-time job. If you find it valuable, consider supporting its development:
+
+[![Sponsor](https://img.shields.io/badge/💙_Become_a_Sponsor-blue?style=for-the-badge)](https://github.com/sponsors/R3alM0m1X82)
+[![PayPal](https://img.shields.io/badge/☕_PayPal_Donation-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/mohammedbellala)
+
+Your support enables:
+- ⚡ Faster feature development
+- 🛠️ Better tools and documentation
+- 🎓 Educational content for the community
+
+See all [sponsorship tiers and benefits →](./SPONSORS.md)
 
 ---
 
@@ -607,3 +615,4 @@ SOFTWARE.
 ---
 
 *Made with ❤️ for the red team community by r3alm0m1x82*
+
