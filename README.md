@@ -27,6 +27,7 @@
 ═══════════════════════════════════════════════════════════════
 ```
 
+**Watch SpecterBroker/SpecterPortal vs CrowdStrike https://youtu.be/Gk7cB2Tl8Qo**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)]()
@@ -616,6 +617,7 @@ SOFTWARE.
 ---
 
 *Made with ❤️ for the red team community by r3alm0m1x82*
+
 
 
 
