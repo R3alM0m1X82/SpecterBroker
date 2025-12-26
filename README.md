@@ -501,7 +501,7 @@ The tool extracts the following metadata when available:
 
 ### EDR/AV Considerations 
 
-It is NOT currently detected (23/12/2025) by most EDRs because it is a little known technique, it is not a dump of lsass.exe!
+**It is NOT currently detected (23/12/2025) by most EDRs because it is a little known technique, it is not a dump of lsass.exe!**
 
 ### OPSEC Best Practices
 
@@ -618,6 +618,7 @@ SOFTWARE.
 ---
 
 *Made with ❤️ for the red team community by r3alm0m1x82*
+
 
 
 
