@@ -922,6 +922,8 @@ namespace SpecterBroker
                         rt.DisplayName = at.DisplayName;
                     if (string.IsNullOrEmpty(rt.UserOid))
                         rt.UserOid = at.UserOid;
+                    if (string.IsNullOrEmpty(rt.ClientId))
+                        rt.ClientId = at.ClientId;
                     // Don't overwrite tenant_id if already extracted from RT itself
                     if (string.IsNullOrEmpty(rt.TenantId))
                         rt.TenantId = at.TenantId;
@@ -975,8 +977,8 @@ namespace SpecterBroker
                 if (dotIndex > 0)
                     tokenBody = tokenBody.Substring(0, dotIndex);
 
-                // Skip "AV0A" header (4 chars) if present
-                if (tokenBody.StartsWith("AV0A"))
+                // Skip 4-char header if present (AV0A = legacy, AQwA/ATAA = current format)
+                if (tokenBody.StartsWith("AV0A") || tokenBody.StartsWith("AQwA") || tokenBody.StartsWith("ATAA"))
                     tokenBody = tokenBody.Substring(4);
 
                 // We need at least 44 chars for tenant (22) + client (22)
